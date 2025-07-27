@@ -8,6 +8,10 @@ const nextConfig: NextConfig = {
         hostname: "images.unsplash.com",
       },
     ],
+    domains: [
+      'drive.google.com',
+      // nếu bạn có thêm host ảnh nào khác, thêm ở đây
+    ],
   },
 };
 

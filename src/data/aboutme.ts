@@ -53,6 +53,7 @@ export const aboutMe: AboutMe = {
   email: "dohuuphu25@gmail.com",
   imageUrl:
     "/images/me.jpg",
+    // "https://drive.google.com/uc?export=view&id=1bAq58pVoAK4rJ74mwfgaUfzSrgf5noH2",
   googleScholarUrl: "https://scholar.google.com/citations?user=1I86inAAAAAJ&hl=en&authuser=1",
   // githubUsername: "janesmith",
   linkedinUsername: "do-huu-phu-6734771a7",

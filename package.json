@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export",
+    "deploy": "npm run build && npm run export"
   },
   "dependencies": {
     "lucide-react": "^0.469.0",
@@ -26,4 +28,5 @@
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
   }
+  
 }
