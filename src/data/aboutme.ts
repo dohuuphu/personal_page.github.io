@@ -32,7 +32,8 @@ export const aboutMe: AboutMe = {
         I’m pursuing my PhD at the
         <a
           href="https://nycu-acm.github.io/ACM_NYCU_website/"
-          class="text-sky-500 hover:underline"
+          style="color: #0ea5e9"
+          class="hover:underline"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -46,9 +47,30 @@ export const aboutMe: AboutMe = {
       <br> - Physical AI</li>
       <br> - World Model</li>
             </p>
-    </ul>`,
-         
-    
+  `,
+     
+// description: `
+//   <div class="mb-4 text-base leading-relaxed">
+//     <p class="mb-4">
+//       👋 Hello, thanks for dropping by!
+//     </p>
+//     <p class="mb-4">
+//       I’m pursuing my PhD at the
+//       <a
+//   href="https://nycu-acm.github.io/ACM_NYCU_website/"
+//   class="!text-sky-500 hover:underline"
+//   target="_blank"
+//   rel="noopener noreferrer"
+// >
+//         ACM Lab
+//       </a>, NYCU, Taiwan.
+//     </p>
+//     <strong>Interests</strong>:
+//     <br> - Generative AI 2D/3D</li>
+//       <br> - Physical AI</li>
+//       <br> - World Model</li>
+//             </p>
+//   `,
 
   email: "dohuuphu25@gmail.com",
   imageUrl:
