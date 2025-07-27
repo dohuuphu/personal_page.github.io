@@ -16,7 +16,8 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-[#FFFCF8]">
       {/* Don't have a great call on whether max-w-screen-xl is better */}
-      <div className="max-w-screen-lg mx-auto px-8 py-24">
+      <div className="max-w-screen-2xl mx-auto px-8 py-24">
+        
         {/* Grid Layout */}
         <div className="grid grid-cols-1 md:grid-cols-12 gap-2">
           {/* Left Column - Fixed Info */}
@@ -28,16 +29,26 @@ export default function Home() {
           </div>
 
           {/* Right Column - Scrolling Content */}
-          <div className="col-span-12 md:col-span-7 md:col-start-6 space-y-24">
+         
+            <div className="col-span-12 md:col-span-8 md:col-start-5 space-y-24">
             {/* About section is typically first */}
             {aboutMe.description && (
               <section>
-                <p
-                  className="font-serif text-sm leading-relaxed text-zinc-700 [&_a]:underline [&_a]:text-zinc-900 [&_a:hover]:text-zinc-600"
+                {/* <p
+                  className="font-serif text-m leading-relaxed text-zinc-700 [&_a]:underline [&_a]:text-zinc-900 [&_a:hover]:text-zinc-600"
                   dangerouslySetInnerHTML={{ __html: aboutMe.description }}
-                />
+                /> */}
+                {aboutMe.description && (
+                  <div className="max-w-lg w-full border-2 border-zinc-200 bg-zinc-100 rounded-2xl p-5 shadow-xl text-zinc-1000">
+                    <div
+                      className="prose prose-zinc"
+                      dangerouslySetInnerHTML={{ __html: aboutMe.description }}
+                        />
+                      </div>
+                    )}
               </section>
             )}
+            
 
             {/* Map through sectionOrder to render sections in correct order */}
             {sectionOrder.map((sectionName) => {
@@ -64,7 +75,7 @@ export default function Home() {
                   return (
                     educationData.length > 0 && (
                       <section key={sectionName}>
-                        <h2 className="font-serif text-zinc-700 mb-12 tracking-wide uppercase">
+                        <h2 className="font-serif font-bold text-red-500 mb-12 tracking-wide uppercase">
                           Education
                         </h2>
                         <div className="space-y-12">
@@ -79,7 +90,7 @@ export default function Home() {
                   return (
                     publicationData.length > 0 && (
                       <section key={sectionName}>
-                        <h2 className="font-serif text-l mb-12 tracking-wide uppercase">
+                        <h2 className="font-serif font-bold text-red-500 mb-12 tracking-wide uppercase">
                           Publications
                         </h2>
                         <div className="space-y-12">
@@ -99,7 +110,7 @@ export default function Home() {
                   return (
                     experienceData.length > 0 && (
                       <section key={sectionName}>
-                        <h2 className="font-serif text-md mb-12 tracking-wide uppercase">
+                        <h2 className="font-serif font-bold text-red-500 mb-12 tracking-wide uppercase">
                           Experience
                         </h2>
                         <div className="space-y-12">
@@ -117,7 +128,7 @@ export default function Home() {
                   return (
                     portfolioData.length > 0 && (
                       <section key={sectionName}>
-                        <h2 className="font-serif text-md mb-12 tracking-wide uppercase">
+                        <h2 className="font-serif font-bold text-red-500 mb-12 tracking-wide uppercase">
                           Portfolio
                         </h2>
                         <div className="space-y-12">

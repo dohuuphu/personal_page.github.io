@@ -22,7 +22,7 @@ export function PublicationEntry({
       )}
       <div className="flex flex-col flex-1">
         <div className="flex flex-row gap-4 items-center mb-2">
-          <p className="text-xs text-zinc-500">
+          <p className="text-sm text-blue-500">
             {publication.conference} {publication.year}
           </p>
           {publication.award && (
@@ -34,8 +34,13 @@ export function PublicationEntry({
             </div>
           )}
         </div>
-        <h3 className="font-serif text-md mb-3">{publication.title}</h3>
-        <p className="text-sm text-zinc-600 mb-4">{publication.authors}</p>
+        <h3 className="font-serif text-base mb-3">{publication.title}</h3>
+        {/* <p className="text-sm text-zinc-600 mb-4">{publication.authors}</p>
+         */}
+        <p
+        className="text-sm text-zinc-600 mb-4"
+        dangerouslySetInnerHTML={{ __html: publication.authors }}
+        />
         <div className="flex flex-row gap-6">
           {publication.paperUrl && (
             <a

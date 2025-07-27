@@ -18,22 +18,48 @@ export interface AboutMe {
 }
 
 export const aboutMe: AboutMe = {
-  name: "Jane R. Smith",
+  name: "Huu-Phu Do",
   title: "Ph.D. Candidate",
-  institution: "Stanford University",
+  institution: "National Yang Ming Chiao Tung University (NYCU)",
   // Note that links work in the description
-  description:
-    "I'm a final-year <a href='https://www.stanford.edu'>PhD candidate</a> working at the intersection of causal inference and machine learning. My research focuses on developing robust, interpretable systems that can reason about cause and effect in complex environments.",
-  email: "______@stanford.edu",
+  // description:
+  //   "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hello, thanks for dropping by!<br> I'm pursuing my PhD at the <a href='https://www.stanford.edu'>ACM Lab</a>, NYCU, Taiwan. <br><br>  Under the 'supervision of Prof. Chin-Chung Huang, my research interests lie in <br>-Generative AI <br>-Physics-World Model.",
+  description: 
+      `<p class="mb-4 text-m leading-relaxed ">
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp👋Hello, thanks for dropping by!
+      </p>
+      <p class="mb-4 text-base leading-relaxed">
+        I’m pursuing my PhD at the
+        <a
+          href="https://nycu-acm.github.io/ACM_NYCU_website/"
+          class="text-sky-500 hover:underline"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          ACM Lab
+        </a>,
+        NYCU, Taiwan.
+
+      <p class="mb-4 text-base leading-relaxed">
+      <strong>Interests</strong>:
+      <br> - Generative AI 2D/3D</li>
+      <br> - Physical AI</li>
+      <br> - World Model</li>
+            </p>
+    </ul>`,
+         
+    
+
+  email: "dohuuphu25@gmail.com",
   imageUrl:
-    "https://images.unsplash.com/photo-1581481615985-ba4775734a9b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  googleScholarUrl: "https://scholar.google.com/citations?user=bWtMl_MAAAAJ",
-  githubUsername: "janesmith",
-  linkedinUsername: "janesmith",
-  twitterUsername: "janesmith",
-  blogUrl: "https://",
-  cvUrl: "https://",
-  institutionUrl: "https://www.stanford.edu",
+    "/images/me.jpg",
+  googleScholarUrl: "https://scholar.google.com/citations?user=1I86inAAAAAJ&hl=en&authuser=1",
+  // githubUsername: "janesmith",
+  linkedinUsername: "do-huu-phu-6734771a7",
+  // twitterUsername: "janesmith",
+  // blogUrl: "https://",
+  // cvUrl: "https://",
+  // institutionUrl: "https://www.stanford.edu",
   // altName: "",
   // secretDescription: "I like dogs.",
 };

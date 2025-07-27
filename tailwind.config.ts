@@ -12,6 +12,16 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      //       fontFamily: {
+      //   sans: ['Inter', 'sans-serif'], // ví dụ: dùng Inter
+      //   serif: ['Georgia', 'serif'],
+      //   mono: ['Menlo', 'monospace'],
+      // },
+      // fontSize: {
+      //   base: '18px',
+      //   lg: '18px',
+      //   xl: '20px',
+      // },
     },
   },
   plugins: [],
