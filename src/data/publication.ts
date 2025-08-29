@@ -42,6 +42,7 @@ export const publicationData: Publication[] = [
     // award: "🏆 Best Paper Award",
     // if you have an image in public/images, you can use it like this:
     // imageUrl: "/images/publication-image.jpg"
+    award: "Highlight Paper",
   },
   {
     year: "2024 (Conference) ",
