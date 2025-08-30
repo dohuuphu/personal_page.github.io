@@ -3,6 +3,7 @@ export interface Education {
   institution: string;
   degree: string;
   advisor?: string;
+  advisorUrl?:string;
   thesis?: string;
   thesisUrl?: string;
 }
@@ -14,6 +15,7 @@ export const educationData: Education[] = [
     institution: "National Yang Ming Chiao Tung University",
     degree: "Ph.D. in Computer Science",
     advisor: "Prof. Ching-Chun Huang",
+    advisorUrl: "https://www.cs.nycu.edu.tw/members/detail/chingchun?locale=en"
   },
   {
     year: "2016—2020",
