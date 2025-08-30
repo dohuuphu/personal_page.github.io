@@ -12,7 +12,7 @@ export function EducationEntry({ education }: { education: Education }) {
             // <p className="text-sm text-zinc-500 mt-2 italic">
             //   Advisor: {education.advisor}
             // </p>
-            <p className="text-m text-zinc-500 mt-2 italic">
+            <p className="text-sm text-zinc-500 mt-2 italic">
               Advisor:{" "}
               {education.advisorUrl ? (
                 <a
