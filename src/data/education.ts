@@ -13,7 +13,15 @@ export const educationData: Education[] = [
     year: "2023—Present",
     institution: "National Yang Ming Chiao Tung University",
     degree: "Ph.D. in Computer Science",
-    advisor: "Prof. Ching-Chun Huang",
+    advisor: 
+    `<a
+          href="https://nycu-acm.github.io/ACM_NYCU_website/"
+          class="hover:underline"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Prof. Ching-Chun Huang
+        </a>`,
   },
   {
     year: "2016—2020",
