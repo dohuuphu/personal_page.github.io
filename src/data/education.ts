@@ -14,7 +14,8 @@ export const educationData: Education[] = [
     institution: "National Yang Ming Chiao Tung University",
     degree: "Ph.D. in Computer Science",
     advisor: 
-    `<a
+    `<p class="mb-4 text-base leading-relaxed">
+    <a
           href="https://nycu-acm.github.io/ACM_NYCU_website/"
           class="hover:underline"
           target="_blank"
